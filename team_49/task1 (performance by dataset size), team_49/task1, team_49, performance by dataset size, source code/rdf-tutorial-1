@@ -1,0 +1,14 @@
+## Get unique standard states
+
+PREFIX table: <http://www.daml.org/2003/01/periodictable/PeriodicTable#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT distinct ?state
+WHERE {?instance table:standardState ?state. }
+
+## Get atomic weights
+
+PREFIX table: <http://www.daml.org/2003/01/periodictable/PeriodicTable#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?x ?thing
+WHERE { ?thing table:atomicWeight ?x. }
+
