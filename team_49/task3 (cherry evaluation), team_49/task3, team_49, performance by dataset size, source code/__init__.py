@@ -8,6 +8,12 @@ def main(args=None):
     if args is None:
         args = sys.argv[1:]
 
+    file = open(config.outputfile, 'w')
+    orig_stdout = sys.stdout
+    sys.stdout = file
+    orig_stderr = sys.stderr
+    sys.stderr = file
+
     for name, location in config.DATA_SETS.items():
         if (name == "skinnonskin"):
             df = pd.read_csv(location, sep=',|\t' ,engine='python' ,names=["G","R","B","Class"])
@@ -23,7 +29,8 @@ def main(args=None):
         classifier.rFClassifier()
         # print df.head()
     print "done"
-
+    sys.stdout = orig_stdout
+    sys.stderr = orig_stderr
 
 if __name__ == "__main__":
     main()
