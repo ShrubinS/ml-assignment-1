@@ -1,0 +1,504 @@
+chunk size 100
+dataset sum_with_noise
+Linear Regression
+for neg_mean_squared_error  value: -7701810600.44
+for explained_variance  value: 0.981534307175
+KNN
+for neg_mean_squared_error  value: -11206913451.2
+for explained_variance  value: 0.972984192154
+
+
+Logistic Regression
+for accuracy  value: 0.83601010101
+for f1_macro  value: 0.583256671089
+Decision tree classifier
+for accuracy  value: 0.943686868687
+for f1_macro  value: 0.842249373434
+
+
+chunk size 500
+dataset sum_with_noise
+Linear Regression
+for neg_mean_squared_error  value: -6476917048.53
+for explained_variance  value: 0.986411581646
+KNN
+for neg_mean_squared_error  value: -9444465043.66
+for explained_variance  value: 0.980555555934
+
+
+Logistic Regression
+for accuracy  value: 0.898836634654
+for f1_macro  value: 0.730019521061
+Decision tree classifier
+for accuracy  value: 0.964024609844
+for f1_macro  value: 0.949107308851
+
+
+chunk size 1000
+dataset sum_with_noise
+Linear Regression
+for neg_mean_squared_error  value: -6131360794.68
+for explained_variance  value: 0.987212015123
+KNN
+for neg_mean_squared_error  value: -10241205838.3
+for explained_variance  value: 0.978807932548
+
+
+Logistic Regression
+for accuracy  value: 0.892438267356
+for f1_macro  value: 0.592780063041
+Decision tree classifier
+for accuracy  value: 0.885419471359
+for f1_macro  value: 0.833582825664
+
+
+chunk size 5000
+dataset sum_with_noise
+Linear Regression
+for neg_mean_squared_error  value: -6278356125.27
+for explained_variance  value: 0.98710883678
+KNN
+for neg_mean_squared_error  value: -10161757390.6
+for explained_variance  value: 0.979148648668
+
+
+Logistic Regression
+for accuracy  value: 0.881378943816
+for f1_macro  value: 0.510068937868
+Decision tree classifier
+for accuracy  value: 0.950002618964
+for f1_macro  value: 0.883799255301
+
+
+chunk size 10000
+dataset sum_with_noise
+Linear Regression
+for neg_mean_squared_error  value: -6316632814.96
+for explained_variance  value: 0.987031485647
+KNN
+for neg_mean_squared_error  value: -10017181492.9
+for explained_variance  value: 0.979450048397
+
+
+Logistic Regression
+for accuracy  value: 0.879869064898
+for f1_macro  value: 0.431237285966
+Decision tree classifier
+for accuracy  value: 0.954397912927
+for f1_macro  value: 0.919984883089
+
+
+chunk size 50000
+dataset sum_with_noise
+Linear Regression
+for neg_mean_squared_error  value: -6377441784.83
+for explained_variance  value: 0.986956285782
+KNN
+for mean_squared_error value: 9901315533.39
+for explained_variance_score value: 0.979717168817
+
+
+Logistic Regression
+for accuracy  value: 0.885571331126
+for f1_macro  value: 0.485581456309
+Decision tree classifier
+for accuracy: 0.9556
+for f1_score value: 0.729682722195
+
+
+chunk size 100000
+dataset sum_with_noise
+Linear Regression
+for neg_mean_squared_error  value: -6375071876.75
+for explained_variance  value: 0.986930075858
+KNN
+for mean_squared_error value: 9815835965.52
+for explained_variance_score value: 0.979823847611
+
+
+Logistic Regression
+for accuracy  value: 0.882696988253
+for f1_macro  value: 0.463769696635
+Decision tree classifier
+for accuracy: 0.957033333333
+for f1_score value: 0.922339121554
+
+
+chunk size 100
+dataset sum_without_noise
+Linear Regression
+for neg_mean_squared_error  value: -1.09706119142e-19
+for explained_variance  value: 1.0
+KNN
+for neg_mean_squared_error  value: -826862366.283
+for explained_variance  value: 0.99705613142
+
+
+Logistic Regression
+for accuracy  value: 0.744949494949
+for f1_macro  value: 0.479807791538
+Decision tree classifier
+for accuracy  value: 0.981666666667
+for f1_macro  value: 0.950915750916
+
+
+chunk size 500
+dataset sum_without_noise
+Linear Regression
+for neg_mean_squared_error  value: -1.3119483547e-19
+for explained_variance  value: 1.0
+KNN
+for neg_mean_squared_error  value: -99464460.2265
+for explained_variance  value: 0.999649973355
+
+
+Logistic Regression
+for accuracy  value: 0.875697779112
+for f1_macro  value: 0.787788714801
+Decision tree classifier
+for accuracy  value: 1.0
+for f1_macro  value: 1.0
+
+
+chunk size 1000
+dataset sum_without_noise
+Linear Regression
+for neg_mean_squared_error  value: -9.54782985355e-20
+for explained_variance  value: 1.0
+KNN
+for neg_mean_squared_error  value: -54821095.6018
+for explained_variance  value: 0.999808032458
+
+
+Logistic Regression
+for accuracy  value: 0.859072962518
+for f1_macro  value: 0.531356888949
+Decision tree classifier
+for accuracy  value: 1.0
+for f1_macro  value: 1.0
+
+
+chunk size 5000
+dataset sum_without_noise
+Linear Regression
+for neg_mean_squared_error  value: -1.25616878543e-19
+for explained_variance  value: 1.0
+KNN
+for neg_mean_squared_error  value: -11525230.0598
+for explained_variance  value: 0.99996034607
+
+
+Logistic Regression
+for accuracy  value: 0.851195099152
+for f1_macro  value: 0.439492040072
+Decision tree classifier
+for accuracy  value: 0.999800399202
+for f1_macro  value: 0.999033328524
+
+
+chunk size 10000
+dataset sum_without_noise
+Linear Regression
+for neg_mean_squared_error  value: -1.85533343655e-19
+for explained_variance  value: 1.0
+KNN
+for neg_mean_squared_error  value: -9338548.22735
+for explained_variance  value: 0.999968107631
+
+
+Logistic Regression
+for accuracy  value: 0.853804979976
+for f1_macro  value: 0.412030410699
+Decision tree classifier
+for accuracy  value: 1.0
+for f1_macro  value: 1.0
+
+
+chunk size 50000
+dataset sum_without_noise
+Linear Regression
+for neg_mean_squared_error  value: -6.219320484e-19
+for explained_variance  value: 1.0
+KNN
+for mean_squared_error value: 9029003.2935
+for explained_variance_score value: 0.999969186986
+
+
+Logistic Regression
+for accuracy  value: 0.856934727611
+for f1_macro  value: 0.490257509958
+Decision tree classifier
+for accuracy: 0.9998
+for f1_score value: 0.793632241409
+
+
+chunk size 100000
+dataset sum_without_noise
+Linear Regression
+for neg_mean_squared_error  value: -9.46088906441e-19
+for explained_variance  value: 1.0
+KNN
+for mean_squared_error value: 9007156.40362
+for explained_variance_score value: 0.999969050583
+
+
+Logistic Regression
+for accuracy  value: 0.856509258337
+for f1_macro  value: 0.467084927532
+Decision tree classifier
+for accuracy: 0.999966666667
+for f1_score value: 0.998221204273
+
+
+chunk size 100
+dataset 3d_road_network
+Linear Regression
+for neg_mean_squared_error  value: -64.4400289933
+for explained_variance  value: -0.215626808902
+KNN
+for neg_mean_squared_error  value: -45.1417261963
+for explained_variance  value: 0.201997221147
+
+
+Logistic Regression
+for accuracy  value: 0.59
+for f1_macro  value: 0.482626262626
+Decision tree classifier
+for accuracy  value: 0.835555555556
+for f1_macro  value: 0.814973544974
+
+
+chunk size 500
+dataset 3d_road_network
+Linear Regression
+for neg_mean_squared_error  value: -376.729125879
+for explained_variance  value: -0.30908119906
+KNN
+for neg_mean_squared_error  value: -72.6635526792
+for explained_variance  value: 0.630238697936
+
+
+Logistic Regression
+for accuracy  value: 0.527370948379
+for f1_macro  value: 0.426577331536
+Decision tree classifier
+for accuracy  value: 0.819527811124
+for f1_macro  value: 0.804316945172
+
+
+chunk size 1000
+dataset 3d_road_network
+Linear Regression
+for neg_mean_squared_error  value: -340.174023701
+for explained_variance  value: -0.0163005360316
+KNN
+for neg_mean_squared_error  value: -105.396558017
+for explained_variance  value: 0.339710224188
+
+
+Logistic Regression
+for accuracy  value: 0.495
+for f1_macro  value: 0.415202136758
+Decision tree classifier
+for accuracy  value: 0.64
+for f1_macro  value: 0.639062323806
+
+
+chunk size 5000
+dataset 3d_road_network
+Linear Regression
+for neg_mean_squared_error  value: -314.941356706
+for explained_variance  value: 0.00309485887563
+KNN
+for neg_mean_squared_error  value: -169.336923843
+for explained_variance  value: 0.421521553664
+
+
+Logistic Regression
+for accuracy  value: 0.4118
+for f1_macro  value: 0.324554352414
+Decision tree classifier
+for accuracy  value: 0.5758
+for f1_macro  value: 0.557788589343
+
+
+chunk size 10000
+dataset 3d_road_network
+Linear Regression
+for neg_mean_squared_error  value: -339.10868908
+for explained_variance  value: -0.0103345825568
+KNN
+for neg_mean_squared_error  value: -182.447564842
+for explained_variance  value: 0.430069803252
+
+
+Logistic Regression
+for accuracy  value: 0.4036
+for f1_macro  value: 0.345408885358
+Decision tree classifier
+for accuracy  value: 0.5983
+for f1_macro  value: 0.596025369622
+
+
+chunk size 50000
+dataset 3d_road_network
+Linear Regression
+for neg_mean_squared_error  value: -332.676670669
+for explained_variance  value: 0.0148099051065
+KNN
+for mean_squared_error value: 3.15881395726
+for explained_variance_score value: 0.990478695932
+
+
+Logistic Regression
+for accuracy  value: 0.37038
+for f1_macro  value: 0.341936188168
+Decision tree classifier
+for accuracy: 0.951266666667
+for f1_score value: 0.951577831858
+
+
+chunk size 100000
+dataset 3d_road_network
+Linear Regression
+for neg_mean_squared_error  value: -349.808178891
+for explained_variance  value: 0.0100699609139
+KNN
+for mean_squared_error value: 2.28382218144
+for explained_variance_score value: 0.993486028739
+
+
+Logistic Regression
+for accuracy  value: 0.37462
+for f1_macro  value: 0.337046797658
+Decision tree classifier
+for accuracy: 0.958733333333
+for f1_score value: 0.958835172865
+
+
+chunk size 100
+dataset twitter_buzz
+Linear Regression
+for neg_mean_squared_error  value: -20737.7797586
+for explained_variance  value: -351.016337942
+KNN
+for neg_mean_squared_error  value: -111.1425
+for explained_variance  value: -2.78850281293
+
+
+Logistic Regression
+for accuracy  value: 0.671111111111
+for f1_macro  value: 0.642467532468
+Decision tree classifier
+for accuracy  value: 0.613888888889
+for f1_macro  value: 0.572665945166
+
+
+chunk size 500
+dataset twitter_buzz
+Linear Regression
+for neg_mean_squared_error  value: -230.801080234
+for explained_variance  value: -1.42289710325
+KNN
+for neg_mean_squared_error  value: -60.379875
+for explained_variance  value: -0.239152273503
+
+
+Logistic Regression
+for accuracy  value: 0.671326930772
+for f1_macro  value: 0.643045972623
+Decision tree classifier
+for accuracy  value: 0.59274909964
+for f1_macro  value: 0.579408237707
+
+
+chunk size 1000
+dataset twitter_buzz
+Linear Regression
+for neg_mean_squared_error  value: -7220.08058008
+for explained_variance  value: -4.64238746757
+KNN
+for neg_mean_squared_error  value: -6596.7300625
+for explained_variance  value: 0.00552174238806
+
+
+Logistic Regression
+for accuracy  value: 0.850219433708
+for f1_macro  value: 0.848767321275
+Decision tree classifier
+for accuracy  value: 0.787031056047
+for f1_macro  value: 0.786749509049
+
+
+chunk size 5000
+dataset twitter_buzz
+Linear Regression
+for neg_mean_squared_error  value: -13725.98857
+for explained_variance  value: 0.567472347685
+KNN
+for neg_mean_squared_error  value: -16665.5275
+for explained_variance  value: 0.556236577567
+
+
+Logistic Regression
+for accuracy  value: 0.872821090812
+for f1_macro  value: 0.872744230148
+Decision tree classifier
+for accuracy  value: 0.818029268907
+for f1_macro  value: 0.818702330022
+
+
+chunk size 10000
+dataset twitter_buzz
+Linear Regression
+for neg_mean_squared_error  value: -37529.4748605
+for explained_variance  value: 0.747081526531
+KNN
+for neg_mean_squared_error  value: -669998.428681
+for explained_variance  value: 0.639183987839
+
+
+Logistic Regression
+for accuracy  value: 0.87400171298
+for f1_macro  value: 0.874227246281
+Decision tree classifier
+for accuracy  value: 0.815195504574
+for f1_macro  value: 0.816270407019
+
+
+chunk size 50000
+dataset twitter_buzz
+Linear Regression
+for neg_mean_squared_error  value: -133190.444338
+for explained_variance  value: 0.866831042466
+KNN
+for mean_squared_error value: 352323.293842
+for explained_variance_score value: 0.583312603478
+
+
+Logistic Regression
+for accuracy  value: 0.890759792077
+for f1_macro  value: 0.890880654949
+Decision tree classifier
+for accuracy: 0.8412
+for f1_score value: 0.84227172874
+
+
+chunk size 100000
+dataset twitter_buzz
+Linear Regression
+for neg_mean_squared_error  value: -75014.3130503
+for explained_variance  value: 0.905716719991
+KNN
+for mean_squared_error value: 66707.44705
+for explained_variance_score value: 0.900992634993
+
+
+Logistic Regression
+for accuracy  value: 0.888349928443
+for f1_macro  value: 0.888910418302
+Decision tree classifier
+for accuracy: 0.840433333333
+for f1_score value: 0.840714841584
+
+
