@@ -1,214 +1,232 @@
 chunk size 100
 dataset sum_with_noise
 Linear Regression
-for neg_mean_squared_error  value: -7701810600.44
-for explained_variance  value: 0.981534307175
+for neg_mean_squared_error  value: -10255875289.3
+for explained_variance  value: 0.975370821605
 KNN
-for neg_mean_squared_error  value: -11206913451.2
-for explained_variance  value: 0.972984192154
+for neg_mean_squared_error  value: -18091441162.2
+for explained_variance  value: 0.955654822288
 
 
 Logistic Regression
-for accuracy  value: 0.83601010101
-for f1_macro  value: 0.583256671089
+for accuracy  value: 0.883484848485
+for f1_macro  value: 0.681013071895
 Decision tree classifier
-for accuracy  value: 0.943686868687
-for f1_macro  value: 0.842249373434
+for accuracy  value: 0.941111111111
+for f1_macro  value: 0.875304437564
 
 
 chunk size 500
 dataset sum_with_noise
 Linear Regression
-for neg_mean_squared_error  value: -6476917048.53
-for explained_variance  value: 0.986411581646
+for neg_mean_squared_error  value: -7643300577.0
+for explained_variance  value: 0.983474091366
 KNN
-for neg_mean_squared_error  value: -9444465043.66
-for explained_variance  value: 0.980555555934
+for neg_mean_squared_error  value: -13424125187.4
+for explained_variance  value: 0.971192631211
 
 
 Logistic Regression
-for accuracy  value: 0.898836634654
-for f1_macro  value: 0.730019521061
+for accuracy  value: 0.914604180134
+for f1_macro  value: 0.763065436668
 Decision tree classifier
-for accuracy  value: 0.964024609844
-for f1_macro  value: 0.949107308851
+for accuracy  value: 0.9618727491
+for f1_macro  value: 0.86967235658
 
 
 chunk size 1000
 dataset sum_with_noise
 Linear Regression
-for neg_mean_squared_error  value: -6131360794.68
-for explained_variance  value: 0.987212015123
+for neg_mean_squared_error  value: -6905910904.9
+for explained_variance  value: 0.984999977191
 KNN
-for neg_mean_squared_error  value: -10241205838.3
-for explained_variance  value: 0.978807932548
+for neg_mean_squared_error  value: -10251820255.0
+for explained_variance  value: 0.978162161013
 
 
 Logistic Regression
-for accuracy  value: 0.892438267356
-for f1_macro  value: 0.592780063041
+for accuracy  value: 0.901348781937
+for f1_macro  value: 0.554990229326
 Decision tree classifier
-for accuracy  value: 0.885419471359
-for f1_macro  value: 0.833582825664
+for accuracy  value: 0.95424896019
+for f1_macro  value: 0.897145638012
 
 
 chunk size 5000
 dataset sum_with_noise
 Linear Regression
-for neg_mean_squared_error  value: -6278356125.27
-for explained_variance  value: 0.98710883678
+for neg_mean_squared_error  value: -6958257015.17
+for explained_variance  value: 0.985597970196
 KNN
-for neg_mean_squared_error  value: -10161757390.6
-for explained_variance  value: 0.979148648668
+for neg_mean_squared_error  value: -11499096461.3
+for explained_variance  value: 0.976287894051
 
 
 Logistic Regression
-for accuracy  value: 0.881378943816
-for f1_macro  value: 0.510068937868
+for accuracy  value: 0.902889870238
+for f1_macro  value: 0.525737482843
 Decision tree classifier
-for accuracy  value: 0.950002618964
-for f1_macro  value: 0.883799255301
+for accuracy  value: 0.95739624314
+for f1_macro  value: 0.885743367546
 
 
 chunk size 10000
 dataset sum_with_noise
 Linear Regression
-for neg_mean_squared_error  value: -6316632814.96
-for explained_variance  value: 0.987031485647
+for neg_mean_squared_error  value: -7014415142.58
+for explained_variance  value: 0.985525739667
 KNN
-for neg_mean_squared_error  value: -10017181492.9
-for explained_variance  value: 0.979450048397
+for neg_mean_squared_error  value: -11345977853.9
+for explained_variance  value: 0.976624083117
 
 
 Logistic Regression
-for accuracy  value: 0.879869064898
-for f1_macro  value: 0.431237285966
+for accuracy  value: 0.905933805122
+for f1_macro  value: 0.44606571812
 Decision tree classifier
-for accuracy  value: 0.954397912927
-for f1_macro  value: 0.919984883089
+for accuracy  value: 0.956699226696
+for f1_macro  value: 0.903062065135
 
 
 chunk size 50000
 dataset sum_with_noise
 Linear Regression
-for neg_mean_squared_error  value: -6377441784.83
-for explained_variance  value: 0.986956285782
+for neg_mean_squared_error  value: -6971250221.1
+for explained_variance  value: 0.98574736678
 KNN
-for mean_squared_error value: 9901315533.39
-for explained_variance_score value: 0.979717168817
+for mean_squared_error value: 10864858435.5
+for explained_variance_score value: 0.977441022642
 
 
 Logistic Regression
-for accuracy  value: 0.885571331126
-for f1_macro  value: 0.485581456309
+for accuracy  value: 0.903928358219
+for f1_macro  value: 0.521924790556
 Decision tree classifier
-for accuracy: 0.9556
-for f1_score value: 0.729682722195
+for accuracy: 0.957266666667
+for f1_score value: 0.922343575266
 
 
 chunk size 100000
 dataset sum_with_noise
 Linear Regression
-for neg_mean_squared_error  value: -6375071876.75
-for explained_variance  value: 0.986930075858
+for neg_mean_squared_error  value: -7024555548.08
+for explained_variance  value: 0.985605064167
 KNN
-for mean_squared_error value: 9815835965.52
-for explained_variance_score value: 0.979823847611
+for mean_squared_error value: 10915662200.2
+for explained_variance_score value: 0.97739442493
 
 
 Logistic Regression
-for accuracy  value: 0.882696988253
-for f1_macro  value: 0.463769696635
+for accuracy  value: 0.904103598516
+for f1_macro  value: 0.538361179451
 Decision tree classifier
-for accuracy: 0.957033333333
-for f1_score value: 0.922339121554
+for accuracy: 0.9571
+for f1_score value: 0.902633721894
+
+
+chunk size 500000
+dataset sum_with_noise
+Linear Regression
+for neg_mean_squared_error  value: -6992028953.86
+for explained_variance  value: 0.985634935173
+KNN
+for mean_squared_error value: 10951567698.1
+for explained_variance_score value: 0.977311379288
+
+
+Logistic Regression
+for accuracy  value: 0.904766720422
+for f1_macro  value: 0.475479649852
+Decision tree classifier
+for accuracy: 0.956126666667
+for f1_score value: 0.932612459478
 
 
 chunk size 100
 dataset sum_without_noise
 Linear Regression
-for neg_mean_squared_error  value: -1.09706119142e-19
+for neg_mean_squared_error  value: -1.4456523069e-19
 for explained_variance  value: 1.0
 KNN
-for neg_mean_squared_error  value: -826862366.283
-for explained_variance  value: 0.99705613142
+for neg_mean_squared_error  value: -1345328962.49
+for explained_variance  value: 0.997056143396
 
 
 Logistic Regression
-for accuracy  value: 0.744949494949
-for f1_macro  value: 0.479807791538
+for accuracy  value: 0.894393939394
+for f1_macro  value: 0.676878224974
 Decision tree classifier
-for accuracy  value: 0.981666666667
-for f1_macro  value: 0.950915750916
+for accuracy  value: 0.991666666667
+for f1_macro  value: 0.96
 
 
 chunk size 500
 dataset sum_without_noise
 Linear Regression
-for neg_mean_squared_error  value: -1.3119483547e-19
+for neg_mean_squared_error  value: -1.86703776475e-19
 for explained_variance  value: 1.0
 KNN
-for neg_mean_squared_error  value: -99464460.2265
-for explained_variance  value: 0.999649973355
+for neg_mean_squared_error  value: -161831829.954
+for explained_variance  value: 0.999649973236
 
 
 Logistic Regression
-for accuracy  value: 0.875697779112
-for f1_macro  value: 0.787788714801
+for accuracy  value: 0.922838150645
+for f1_macro  value: 0.735430004301
 Decision tree classifier
-for accuracy  value: 1.0
-for f1_macro  value: 1.0
+for accuracy  value: 0.998039215686
+for f1_macro  value: 0.965079365079
 
 
 chunk size 1000
 dataset sum_without_noise
 Linear Regression
-for neg_mean_squared_error  value: -9.54782985355e-20
+for neg_mean_squared_error  value: -2.30465530415e-19
 for explained_variance  value: 1.0
 KNN
-for neg_mean_squared_error  value: -54821095.6018
-for explained_variance  value: 0.999808032458
+for neg_mean_squared_error  value: -89195725.1903
+for explained_variance  value: 0.999808032327
 
 
 Logistic Regression
-for accuracy  value: 0.859072962518
-for f1_macro  value: 0.531356888949
+for accuracy  value: 0.907456667997
+for f1_macro  value: 0.553705939163
 Decision tree classifier
-for accuracy  value: 1.0
-for f1_macro  value: 1.0
+for accuracy  value: 0.996038050407
+for f1_macro  value: 0.984797186437
 
 
 chunk size 5000
 dataset sum_without_noise
 Linear Regression
-for neg_mean_squared_error  value: -1.25616878543e-19
+for neg_mean_squared_error  value: -2.19389042609e-19
 for explained_variance  value: 1.0
 KNN
-for neg_mean_squared_error  value: -11525230.0598
-for explained_variance  value: 0.99996034607
+for neg_mean_squared_error  value: -18751863.8617
+for explained_variance  value: 0.999960346167
 
 
 Logistic Regression
-for accuracy  value: 0.851195099152
-for f1_macro  value: 0.439492040072
+for accuracy  value: 0.909042503042
+for f1_macro  value: 0.505452377299
 Decision tree classifier
-for accuracy  value: 0.999800399202
-for f1_macro  value: 0.999033328524
+for accuracy  value: 1.0
+for f1_macro  value: 1.0
 
 
 chunk size 10000
 dataset sum_without_noise
 Linear Regression
-for neg_mean_squared_error  value: -1.85533343655e-19
+for neg_mean_squared_error  value: -2.76075678665e-19
 for explained_variance  value: 1.0
 KNN
-for neg_mean_squared_error  value: -9338548.22735
-for explained_variance  value: 0.999968107631
+for neg_mean_squared_error  value: -15193999.1426
+for explained_variance  value: 0.999968107853
 
 
 Logistic Regression
-for accuracy  value: 0.853804979976
-for f1_macro  value: 0.412030410699
+for accuracy  value: 0.911335672321
+for f1_macro  value: 0.48508344376
 Decision tree classifier
 for accuracy  value: 1.0
 for f1_macro  value: 1.0
@@ -217,37 +235,55 @@ for f1_macro  value: 1.0
 chunk size 50000
 dataset sum_without_noise
 Linear Regression
-for neg_mean_squared_error  value: -6.219320484e-19
+for neg_mean_squared_error  value: -8.16387508201e-19
 for explained_variance  value: 1.0
 KNN
-for mean_squared_error value: 9029003.2935
-for explained_variance_score value: 0.999969186986
+for mean_squared_error value: 14922011.7605
+for explained_variance_score value: 0.999969051725
 
 
 Logistic Regression
-for accuracy  value: 0.856934727611
-for f1_macro  value: 0.490257509958
+for accuracy  value: 0.910307350519
+for f1_macro  value: 0.50681509076
 Decision tree classifier
-for accuracy: 0.9998
-for f1_score value: 0.793632241409
+for accuracy: 0.999933333333
+for f1_score value: 0.797014925373
 
 
 chunk size 100000
 dataset sum_without_noise
 Linear Regression
-for neg_mean_squared_error  value: -9.46088906441e-19
+for neg_mean_squared_error  value: -1.78611738902e-18
 for explained_variance  value: 1.0
 KNN
-for mean_squared_error value: 9007156.40362
-for explained_variance_score value: 0.999969050583
+for mean_squared_error value: 14639408.9723
+for explained_variance_score value: 0.999969187571
 
 
 Logistic Regression
-for accuracy  value: 0.856509258337
-for f1_macro  value: 0.467084927532
+for accuracy  value: 0.909243056953
+for f1_macro  value: 0.518284438518
 Decision tree classifier
-for accuracy: 0.999966666667
-for f1_score value: 0.998221204273
+for accuracy: 1.0
+for f1_score value: 1.0
+
+
+chunk size 500000
+dataset sum_without_noise
+Linear Regression
+for neg_mean_squared_error  value: -2.23230835914e-18
+for explained_variance  value: 1.0
+KNN
+for mean_squared_error value: 14358913.8299
+for explained_variance_score value: 0.999969857773
+
+
+Logistic Regression
+for accuracy  value: 0.910554611992
+for f1_macro  value: 0.483521015709
+Decision tree classifier
+for accuracy: 1.0
+for f1_score value: 1.0
 
 
 chunk size 100
@@ -283,7 +319,7 @@ for accuracy  value: 0.527370948379
 for f1_macro  value: 0.426577331536
 Decision tree classifier
 for accuracy  value: 0.819527811124
-for f1_macro  value: 0.804316945172
+for f1_macro  value: 0.804391142181
 
 
 chunk size 1000
@@ -300,8 +336,8 @@ Logistic Regression
 for accuracy  value: 0.495
 for f1_macro  value: 0.415202136758
 Decision tree classifier
-for accuracy  value: 0.64
-for f1_macro  value: 0.639062323806
+for accuracy  value: 0.643
+for f1_macro  value: 0.641451415137
 
 
 chunk size 5000
@@ -318,8 +354,8 @@ Logistic Regression
 for accuracy  value: 0.4118
 for f1_macro  value: 0.324554352414
 Decision tree classifier
-for accuracy  value: 0.5758
-for f1_macro  value: 0.557788589343
+for accuracy  value: 0.5724
+for f1_macro  value: 0.555200730925
 
 
 chunk size 10000
@@ -336,8 +372,8 @@ Logistic Regression
 for accuracy  value: 0.4036
 for f1_macro  value: 0.345408885358
 Decision tree classifier
-for accuracy  value: 0.5983
-for f1_macro  value: 0.596025369622
+for accuracy  value: 0.5899
+for f1_macro  value: 0.588326649809
 
 
 chunk size 50000
@@ -346,16 +382,16 @@ Linear Regression
 for neg_mean_squared_error  value: -332.676670669
 for explained_variance  value: 0.0148099051065
 KNN
-for mean_squared_error value: 3.15881395726
-for explained_variance_score value: 0.990478695932
+for mean_squared_error value: 3.22179160549
+for explained_variance_score value: 0.990294235964
 
 
 Logistic Regression
 for accuracy  value: 0.37038
 for f1_macro  value: 0.341936188168
 Decision tree classifier
-for accuracy: 0.951266666667
-for f1_score value: 0.951577831858
+for accuracy: 0.957333333333
+for f1_score value: 0.95744503368
 
 
 chunk size 100000
@@ -364,16 +400,16 @@ Linear Regression
 for neg_mean_squared_error  value: -349.808178891
 for explained_variance  value: 0.0100699609139
 KNN
-for mean_squared_error value: 2.28382218144
-for explained_variance_score value: 0.993486028739
+for mean_squared_error value: 2.44681881926
+for explained_variance_score value: 0.992907610852
 
 
 Logistic Regression
 for accuracy  value: 0.37462
 for f1_macro  value: 0.337046797658
 Decision tree classifier
-for accuracy: 0.958733333333
-for f1_score value: 0.958835172865
+for accuracy: 0.961033333333
+for f1_score value: 0.961259506972
 
 
 chunk size 100
@@ -390,8 +426,8 @@ Logistic Regression
 for accuracy  value: 0.671111111111
 for f1_macro  value: 0.642467532468
 Decision tree classifier
-for accuracy  value: 0.613888888889
-for f1_macro  value: 0.572665945166
+for accuracy  value: 0.651666666667
+for f1_macro  value: 0.638075998076
 
 
 chunk size 500
@@ -408,8 +444,8 @@ Logistic Regression
 for accuracy  value: 0.671326930772
 for f1_macro  value: 0.643045972623
 Decision tree classifier
-for accuracy  value: 0.59274909964
-for f1_macro  value: 0.579408237707
+for accuracy  value: 0.608675470188
+for f1_macro  value: 0.594835205156
 
 
 chunk size 1000
@@ -426,8 +462,8 @@ Logistic Regression
 for accuracy  value: 0.850219433708
 for f1_macro  value: 0.848767321275
 Decision tree classifier
-for accuracy  value: 0.787031056047
-for f1_macro  value: 0.786749509049
+for accuracy  value: 0.797003523882
+for f1_macro  value: 0.795608974331
 
 
 chunk size 5000
@@ -444,8 +480,8 @@ Logistic Regression
 for accuracy  value: 0.872821090812
 for f1_macro  value: 0.872744230148
 Decision tree classifier
-for accuracy  value: 0.818029268907
-for f1_macro  value: 0.818702330022
+for accuracy  value: 0.815821268875
+for f1_macro  value: 0.816742389179
 
 
 chunk size 10000
@@ -462,8 +498,8 @@ Logistic Regression
 for accuracy  value: 0.87400171298
 for f1_macro  value: 0.874227246281
 Decision tree classifier
-for accuracy  value: 0.815195504574
-for f1_macro  value: 0.816270407019
+for accuracy  value: 0.815690197855
+for f1_macro  value: 0.81671561031
 
 
 chunk size 50000
@@ -472,16 +508,16 @@ Linear Regression
 for neg_mean_squared_error  value: -133190.444338
 for explained_variance  value: 0.866831042466
 KNN
-for mean_squared_error value: 352323.293842
-for explained_variance_score value: 0.583312603478
+for mean_squared_error value: 172963.909813
+for explained_variance_score value: 0.797422228928
 
 
 Logistic Regression
 for accuracy  value: 0.890759792077
 for f1_macro  value: 0.890880654949
 Decision tree classifier
-for accuracy: 0.8412
-for f1_score value: 0.84227172874
+for accuracy: 0.841
+for f1_score value: 0.842005258579
 
 
 chunk size 100000
@@ -490,15 +526,33 @@ Linear Regression
 for neg_mean_squared_error  value: -75014.3130503
 for explained_variance  value: 0.905716719991
 KNN
-for mean_squared_error value: 66707.44705
-for explained_variance_score value: 0.900992634993
+for mean_squared_error value: 55290.5737958
+for explained_variance_score value: 0.901882593467
 
 
 Logistic Regression
 for accuracy  value: 0.888349928443
 for f1_macro  value: 0.888910418302
 Decision tree classifier
-for accuracy: 0.840433333333
-for f1_score value: 0.840714841584
+for accuracy: 0.840566666667
+for f1_score value: 0.841329068013
+
+
+chunk size 500000
+dataset twitter_buzz
+Linear Regression
+for neg_mean_squared_error  value: -27557.0817256
+for explained_variance  value: 0.933166292058
+KNN
+for mean_squared_error value: 31839.0180971
+for explained_variance_score value: 0.90565143028
+
+
+Logistic Regression
+for accuracy  value: 0.891974013187
+for f1_macro  value: 0.892481017439
+Decision tree classifier
+for accuracy: 0.84152
+for f1_score value: 0.842560930816
 
 
