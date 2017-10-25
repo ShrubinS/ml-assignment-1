@@ -11,35 +11,39 @@ class Classification:
     def __init__(self,dataset,name):
         self.dataset=dataset
         self.name=name
-        self.scoring = ['accuracy', 'precision_macro', 'recall_macro', 'f1_macro', 'neg_log_loss']
+        self.scoring = ['accuracy', 'f1_macro',  'f1_weighted', 'precision_macro', 'recall_macro']
 
-    def logisticRegression(self):
-        print "\n\nLogistic Regression"
-        if(self.name=="skinnonskin"):
-            self.dataset=self.dataset.sample(frac=0.5)
-            self.dataset=self.dataset.head(12000)  #extracting top 12k rows
-        X=self.dataset.drop("Class",axis=1)
-        Y=self.dataset.Class
-        kfold=model_selection.KFold(n_splits=10, random_state=5)
-        lr_model=LogisticRegression()
-        for metric in self.scoring:
-            score=model_selection.cross_val_score(lr_model,X,Y,cv=kfold,scoring=metric)
-            print "metric: " + metric
-            print "score :"+ str(score)+"\n"
-
-    def decisionTree(self):
-        print "\n\nDecision Tree Classifier"
+    def dataPreProcessing(self):
         if (self.name == "skinnonskin"):
             self.dataset = self.dataset.sample(frac=0.5)
             self.dataset = self.dataset.head(12000)  # extracting top 12k rows
-        X = self.dataset.drop("Class", axis=1)
-        Y = self.dataset.Class
+            X = self.dataset.drop("Class", axis=1)
+            Y = self.dataset.Class
+        if (self.name == 'sum'):
+            self.dataset = self.dataset.head(1000)
+            target = ['Target', 'Target Class', 'Target Class Encoded', 'Target_Class_Codes']
+            X = self.dataset.drop(target, axis=1)
+            Y = self.dataset.Target_Class_Codes
+        return X, Y
+
+    def logisticRegression(self):
+        print "\n\nLogistic Regression"
+        X, Y= self.dataPreProcessing()
+        kfold=model_selection.KFold(n_splits=10, random_state=5)
+        lr_model=LogisticRegression()
+        scores=model_selection.cross_validate(lr_model,X,Y,cv=kfold,scoring=self.scoring)
+        for score in self.scoring:
+            print score, scores['test_'+score].mean(), '\n'
+
+
+    def decisionTree(self):
+        print "\n\nDecision Tree Classifier"
+        X, Y = self.dataPreProcessing()
         kfold = model_selection.KFold(n_splits=10, random_state=5)
         dtc_model = DecisionTreeClassifier()
-        for metric in self.scoring:
-            score = model_selection.cross_val_score(dtc_model, X, Y, cv=kfold, scoring=metric)
-            print "metric: " + metric
-            print "score :" + str(score)+"\n"
+        scores = model_selection.cross_validate(dtc_model, X, Y, cv=kfold, scoring=self.scoring)
+        for score in self.scoring:
+            print score, scores['test_' + score].mean(), '\n'
 
     # def supportVectorClassfier(self):
     #     print "\n\nSupport Vector Classifier"
@@ -57,17 +61,12 @@ class Classification:
 
     def kNeighborClassifier(self):
         print "\n\nKNN Classifier"
-        if (self.name == "skinnonskin"):
-            self.dataset = self.dataset.sample(frac=0.5)
-            self.dataset = self.dataset.head(12000)  # extracting top 12k rows
-        X = self.dataset.drop("Class", axis=1)
-        Y = self.dataset.Class
+        X, Y = self.dataPreProcessing()
         kfold = model_selection.KFold(n_splits=10, random_state=5)
         knc_model = KNeighborsClassifier(n_neighbors=6)
-        for metric in self.scoring:
-            score = model_selection.cross_val_score(knc_model, X, Y, cv=kfold, scoring=metric)
-            print "metric: " + metric
-            print "score :" + str(score)+"\n"
+        scores = model_selection.cross_validate(knc_model, X, Y, cv=kfold, scoring=self.scoring)
+        for score in self.scoring:
+            print score, scores['test_' + score].mean(), '\n'
 
     # def kMeansClassifier(self):
     #     print "\n\nKMeans Classifier"
@@ -85,16 +84,11 @@ class Classification:
 
     def rFClassifier(self):
         print "\n\nRandom Forests Classifier"
-        if (self.name == "skinnonskin"):
-            self.dataset = self.dataset.sample(frac=0.5)
-            self.dataset = self.dataset.head(12000)  # extracting top 12k rows
-        X = self.dataset.drop("Class", axis=1)
-        Y = self.dataset.Class
+        X, Y = self.dataPreProcessing()
         kfold = model_selection.KFold(n_splits=10, random_state=5)
         rfc_model = RandomForestClassifier()
-        for metric in self.scoring:
-            score = model_selection.cross_val_score(rfc_model, X, Y, cv=kfold, scoring=metric)
-            print "metric: " + metric
-            print "score :" + str(score)+"\n"
+        scores = model_selection.cross_validate(rfc_model, X, Y, cv=kfold, scoring=self.scoring)
+        for score in self.scoring:
+            print score, scores['test_' + score].mean(), '\n'
 
 
