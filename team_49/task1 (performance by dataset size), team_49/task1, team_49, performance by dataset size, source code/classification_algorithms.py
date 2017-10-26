@@ -8,6 +8,7 @@ from sklearn import svm
 from sklearn import metrics
 from sklearn import neighbors
 from sklearn import tree
+import util
 
 
 def create_label_utility(target, first, second):
@@ -72,33 +73,45 @@ def calculate_scores_split(model, X, y):
     model.fit(X_train, y_train)
 
     y_predict = model.predict(X_test)
-    print "for accuracy:", metrics.accuracy_score(y_predict, y_test)
-    print "for f1_score value:", metrics.f1_score(y_predict, y_test, average='macro')
+    accuracy = metrics.accuracy_score(y_predict, y_test)
+    f1_macro = metrics.f1_score(y_predict, y_test, average='macro')
+    print "for accuracy:", accuracy
+    print "for f1_score value:", f1_macro
+
+    return {'accuracy': accuracy, 'f1_macro': f1_macro}
 
 
 def calculate_scores_cv(regression_model, X, y, scoring):
     scores = cross_validate(regression_model, X, np.squeeze(y), cv=10, scoring=scoring)
 
+    cv_scores = {}
+
     for score in scoring:
-        print "for", score, " value:", scores['test_' + score].mean()
+        mean_score = scores['test_' + score].mean()
+        print "for", score, " value:", mean_score
+        cv_scores[score]= mean_score
+
+    return cv_scores
 
 
-def classification(X, y, scoring, chunk_size):
+def classification(X, y, scoring, chunk_size, name, out_dict):
 
     print "Logistic Regression"
-    calculate_scores_cv(linear_model.LogisticRegression(), X, y, scoring)       # Logistic Regression
+    scores = calculate_scores_cv(linear_model.LogisticRegression(), X, y, scoring)       # Logistic Regression
+    util.iterate_into_out_dict(scores, 'Logisitc Regression', name, out_dict, chunk_size)
 
     print "Decision tree classifier"
     regression_model = tree.DecisionTreeClassifier()                            # Decision Tree Classifier
 
     if chunk_size < 50000:
-        calculate_scores_cv(regression_model, X, y, scoring)
+        scores = calculate_scores_cv(regression_model, X, y, scoring)
+        util.iterate_into_out_dict(scores, 'Decision Tree Classifier', name, out_dict, chunk_size)
     else:
-        calculate_scores_split(regression_model, X, y)
-    print "\n"
+        scores = calculate_scores_split(regression_model, X, y)
+        util.iterate_into_out_dict(scores, 'Decision Tree Classifier', name, out_dict, chunk_size)
 
 
-def perform_classification(df, name, chunk_size):
+def perform_classification(df, name, chunk_size, out_dict):
     X, y = classification_pre_processing(df, name)
 
     assert X.size != 0 and y.size != 0
@@ -109,4 +122,4 @@ def perform_classification(df, name, chunk_size):
     scoring = ['accuracy', 'f1_macro']
     # 'neg_log_loss',
 
-    classification(X, y, scoring, chunk_size)
+    classification(X, y, scoring, chunk_size, name, out_dict)
