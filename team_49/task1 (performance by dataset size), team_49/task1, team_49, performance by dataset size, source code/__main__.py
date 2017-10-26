@@ -37,7 +37,7 @@ def main(args=None):
                 print "dataset", name
                 classification_algorithms.perform_classification(df_chunk, name, chunk_size, out_dict)
 
-        with open('output_test.csv', 'wb') as my_file:
+        with open('output/output.csv', 'wb') as my_file:
             for algo, value_map in out_dict.iteritems():
                 row1 = list()
                 row2 = list()
