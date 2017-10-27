@@ -1,0 +1,111 @@
+skinnonskin
+
+
+Logistic Regression
+accuracy 0.919431332374 
+
+f1_macro 0.879125776265 
+
+f1_weighted 0.919999219084 
+
+precision_macro 0.874002636924 
+
+recall_macro 0.884624715177 
+
+
+
+Decision Tree Classifier
+accuracy 0.998514661453 
+
+f1_macro 0.997739522228 
+
+f1_weighted 0.998515515276 
+
+precision_macro 0.997296993035 
+
+recall_macro 0.998188141414 
+
+
+
+KNN Classifier
+accuracy 0.998400389045 
+
+f1_macro 0.997580164568 
+
+f1_weighted 0.998402965805 
+
+precision_macro 0.996243080517 
+
+recall_macro 0.998933997247 
+
+
+
+Random Forests Classifier
+accuracy 0.997519198531 
+
+f1_macro 0.996234870648 
+
+f1_weighted 0.99752327803 
+
+precision_macro 0.994780047228 
+
+recall_macro 0.997711802976 
+
+sum
+
+
+Logistic Regression
+/home/saksham/anaconda2/lib/python2.7/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/saksham/anaconda2/lib/python2.7/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+accuracy 0.914925183196 
+
+f1_macro 0.496963061921 
+
+f1_weighted 0.903634910248 
+
+precision_macro 0.611527955376 
+
+recall_macro 0.457325253447 
+
+
+
+Decision Tree Classifier
+accuracy 0.999995868451 
+
+f1_macro 0.999729534606 
+
+f1_weighted 0.999995886215 
+
+precision_macro 0.999519230769 
+
+recall_macro 0.999944567627 
+
+
+
+KNN Classifier
+accuracy 0.992629130369 
+
+f1_macro 0.686607112609 
+
+f1_weighted 0.991665468475 
+
+precision_macro 0.680685307888 
+
+recall_macro 0.692853123146 
+
+
+
+Random Forests Classifier
+accuracy 0.999966947612 
+
+f1_macro 0.979029312323 
+
+f1_weighted 0.999959009402 
+
+precision_macro 0.97831542823 
+
+recall_macro 0.979816513761 
+
+done
