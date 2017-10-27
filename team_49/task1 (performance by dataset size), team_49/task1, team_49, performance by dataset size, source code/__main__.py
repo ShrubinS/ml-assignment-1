@@ -4,8 +4,10 @@ import numpy as np
 import config
 import regression_algorithms
 import classification_algorithms
-import util
+import shutil
 import csv
+import tempfile
+import zipfile
 
 
 def main(args=None):
@@ -16,6 +18,12 @@ def main(args=None):
     out_dict = {}
 
     for name, data_set in config.DATA_SETS.items():
+        if data_set['zipped']:
+            zip_ref = zipfile.ZipFile(data_set['location'], 'r')
+            zip_ref.extractall(config.TEMP_DIR)
+            zip_ref.close()
+            data_set['location'] = config.TEMP_DIR + 'Buzz in social media Data Set/Twitter/Twitter.data'
+
         if data_set['header_present']:
             df = pd.read_csv(data_set['location'], sep=data_set['sep'])
         else:
