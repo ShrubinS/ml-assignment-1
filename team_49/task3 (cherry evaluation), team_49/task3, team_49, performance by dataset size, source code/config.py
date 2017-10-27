@@ -1,4 +1,4 @@
-DATASET_ROOT = 'U:\ML\Datasets'
+DATASET_ROOT = '/home/saksham/ML/Datasets/'
 
 DATA_SETS = {
 	# 'sum_without_noise' : DATASET_ROOT + '/the sum dataset/without noise/The SUM dataset, without noise.csv',
@@ -9,3 +9,5 @@ DATA_SETS = {
     'sum'       : DATASET_ROOT + '/The SUM dataset, without noise.csv',
     # 'titanic'	: DATASET_ROOT + '/titanic dataset.csv'
 }
+
+outputfile='/home/saksham/ML/output.txt'
