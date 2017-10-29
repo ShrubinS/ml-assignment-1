@@ -16,7 +16,7 @@ DATA_SETS = {
         'location': DATASET_ROOT + '/the SUM dataset/with noise/The SUM dataset, with noise.csv',
         'header_present': True,
         'sep': ';',
-        'classification_labels_present': True
+        'classification_labels_present': True,
         'zipped': False
     },
     'twitter_buzz': {
